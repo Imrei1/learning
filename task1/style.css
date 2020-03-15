@@ -1,0 +1,56 @@
+/*Общий стиль для меню*/
+#menu {
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+
+	position: relative;
+	width: 358px;
+	height: 196px;
+
+	background: #CCCCCC;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+/*Оформим li'шки для хранения элементов меню*/
+#menu li {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+
+	width: 318px;
+	height: 36px;
+	left: 0px;
+}
+
+/*Для всех вложенных ссылок в li'шки сделаем оформление*/
+#menu li a {
+position: static;
+max-height: 32px;
+width: 318px;
+left: 20px;
+right: 20px;
+top: calc(50% - 16px/2);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-decoration: none;
+
+color: #000000;
+
+padding: 0;
+margin: 0;
+}
+
+/*Подсветим активный элемент меню*/
+#menu li:hover{
+	background-color: #9C9C9C;
+}

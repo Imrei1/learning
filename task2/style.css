@@ -1,0 +1,356 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	position: relative;
+	width: 400px;
+	height: 448px;
+	background: #9C9C9C;
+	border: 2px solid #626262;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.main h1 {
+	position: static;
+	width: 360px;
+	height: 38px;
+	left: 20px;
+	top: 20px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	flex: none;
+	order: 0;
+	margin: 20px 20px;
+}
+
+#divider {
+	width: 398px;
+	height: 1px;
+	top: 78px;
+	flex: none;
+	margin: 0;
+	padding: 0;
+}
+
+#divider hr {
+	width: 100%;
+	top: 78px;
+	height: 1px;
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	border: none;
+	background: #C4C4C4;
+	order: 1;
+}
+
+#email_addres {
+	position: static;
+	width: 360px;
+	height: 49px;
+	left: 20px;
+	top: 99px;
+	flex: none;
+	order: 2;
+	margin: 20px 20px;
+}
+
+#email_addres label {
+	height: 16px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3A3A3A;
+}
+
+#email_addres input {
+	width: 100%;
+	height: 28px;
+	left: 0px;
+	right: 0px;
+	top: 21px;
+	background: #FFFFFF;
+	border: 1px solid #9C9C9C;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+#email_addres input::placeholder {
+
+	height: 16px;
+	left: 10px;
+	right: 10px;
+	top: calc(50% - 16px/2);
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #CCCCCC;
+	padding: 10px 6px;
+}
+
+#password {
+	display: inline-flex;
+	position: static;
+	width: 360px;
+	height: 49px;
+	left: 20px;
+	top: 168px;
+	flex: none;
+	order: 3;
+	margin: 0px 20px;
+}
+
+#password label {
+	height: 16px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3A3A3A;
+}
+
+#password input {
+	margin: 0;
+	padding: 0;
+	width: 175px;
+	height: 28px;
+	left: 0px;
+	right: 0px;
+	top: 21px;
+	background: #FFFFFF;
+	border: 1px solid #9C9C9C;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+#password input::placeholder {
+	height: 16px;
+	left: 10px;
+	right: 10px;
+	top: calc(50% - 16px/2);
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #CCCCCC;
+	padding: 10px 6px;
+}
+
+#left {
+	width: 100%;
+	left: 0%;
+	right: 51.39%;
+	top: 0%;
+	bottom: 0%;
+}
+
+#right {
+	width: 100%;
+	left: 51.39%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+}
+
+#fio {
+	position: static;
+	width: 360px;
+	height: 49px;
+	left: 20px;
+	top: 237px;
+	flex: none;
+	order: 4;
+	margin: 20px 20px;
+}
+
+#fio label {
+	height: 16px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #3A3A3A;
+}
+
+#fio input {
+	width: 100%;
+	height: 28px;
+	left: 0px;
+	right: 0px;
+	top: 21px;
+	background: #FFFFFF;
+	border: 1px solid #9C9C9C;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+#fio input::placeholder {
+	height: 16px;
+	left: 10px;
+	right: 10px;
+	top: calc(50% - 16px/2);
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #CCCCCC;
+	padding: 10px 6px;
+}
+
+#age {
+	position: static;
+	width: 360px;
+	height: 49px;
+	left: 20px;
+	top: 306px;
+	flex: none;
+	order: 5;
+	margin: 0px 20px 20px 20px;
+}
+
+#age label {
+	height: 16px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3A3A3A;
+}
+
+#age input {
+	height: 28px;
+	left: 0px;
+	right: 0px;
+	top: 21px;
+	background: #FFFFFF;
+	border: 1px solid #9C9C9C;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+#age input::placeholder {
+	height: 16px;
+	left: 10px;
+	right: 10px;
+	top: calc(50% - 16px/2);
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #CCCCCC;
+	padding: 10px 6px;
+}
+
+#left_age {
+	position: absolute;
+	height: 49px;
+	left: 0%;
+	right: 51.39%;
+	top: 0px;
+}
+
+#divider2 {
+	width: 398px;
+	height: 1px;
+	top: 375px;
+	flex: none;
+	margin: 0px 20px;
+	padding: 0;
+	margin: 0;
+	order: 6;
+}
+
+#divider2 hr {
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	border: none;
+	background: #C4C4C4;
+	margin: 0 20px;
+}
+
+#buttons {
+	display: flex;
+	align-items: baseline;
+	position: static;
+	width: 360px;
+	height: 32px;
+	left: 20px;
+	top: 396px;
+	mix-blend-mode: normal;
+	order: 7;
+	margin: 20px 20px;
+}
+
+#buttons  > :first-child {
+	margin-right: auto;
+}
+
+
+#button1 {
+	padding: 8px 12px;
+	width: 95px;
+	height: 32px;
+	background: #616161;
+	border: 1px solid #616161;
+	box-sizing: border-box;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #CCCCCC;
+}
+
+#button2 {
+	align-self: flex-end;
+	padding: 8px 12px;
+	width: 74px;
+	height: 32px;
+	background: #CCCCCC;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #616161;
+}
